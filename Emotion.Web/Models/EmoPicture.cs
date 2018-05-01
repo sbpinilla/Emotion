@@ -10,6 +10,7 @@ namespace Emotion.Web.Models
     public class EmoPicture
     {
         public int Id { get; set; }
+        [Display(Name="Foto")]
         public String Name{ get; set; }
 
         [Required]
