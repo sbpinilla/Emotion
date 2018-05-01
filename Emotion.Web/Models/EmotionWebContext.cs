@@ -17,7 +17,9 @@ namespace Emotion.Web.Models
     
         public EmotionWebContext() : base("name=EmotionWebContext")
         {
+
         }
+        
 
         public DbSet<EmoPicture> EmoPictures { get; set; }
         public DbSet<EmoFace> EmoFaces{ get; set; }
